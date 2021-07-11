@@ -39,7 +39,7 @@ My Mentors: [Kaushik Jayaram](https://www.colorado.edu/mechanical/kaushik-jayara
 <img src="./sponsor.PNG">
 <br />
 
-RSS 2020 Learning:
+## RSS 2020 Learning:
 
 - RSS 2020, Early Career Award Keynote + Q&A: Jeannette Bohg [[Video](https://youtu.be/yD_0lUYo5fI)] <br />
 <small>Robotic Grasping of Novel Objects [[NeurIPS 2016](https://papers.nips.cc/paper/2006/hash/22722a343513ed45f14905eb07621686-Abstract.html)] DB for Supervised Learning (SVM) etc to find a good grasping point per pixel. Prof Jeanette made this contribution [ [Learning grasping points with shape context](https://www.sciencedirect.com/science/article/abs/pii/S0921889009001699) ] with feature engineering (edge features & shape context [orientation etc]). From 2D grasping points to 6D grasping pose. Current works [ [Google Arm Farm](https://ai.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html), [DexNet](https://berkeleyautomation.github.io/dex-net/) ]. Insights by Prof Jeannette - Open loop does not work, avoiding collision is constraining, 2D grasping points are not enough. So Continuos Feedback & Re-Planning is important, Exploit the environment, action representations matter. [Real-time Perception meets Reactive Motion Generation](https://arxiv.org/abs/1703.03512), [Probabilistic Articulated Real-Time Tracking for Robot Manipulation](https://arxiv.org/abs/1610.04871) and [Riemannian Motion Policies](https://arxiv.org/abs/1801.02854) were important updates. </small> <br /><br />
@@ -48,11 +48,19 @@ RSS 2020 Learning:
 Q Learning (DoubleQ) in Outer loop and model free RL (A3C) is used in the Inner loop. </small><br /><br />
 <img src="./research_img/robot2.png"> <br />
 <small>Output: [Learning to Scaffold the Development of Robotic Manipulation Skills](https://arxiv.org/abs/1911.00969). Prof Jeannette also learned that grasping depends both upon the object and the fingers - [UniGrasp: Learning a Unified Model to Grasp with Multifingered Robotic Hands](https://arxiv.org/abs/1910.10900). Input : Object Point Cloud and Hand Specification to compute contact points.</small> <br /> <br />
-<img src="./research_img/robot3.png"> <br />
+<img src="./research_img/robot3.PNG"> <br />
 <small><b>What's Next ? </b> [Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks](https://arxiv.org/abs/1810.10191), [Concept2Robot: Learning Manipulation Concepts from Instructions and Human Demonstrations](https://sites.google.com/view/concept2robot), [Object-Centric Task and Motion Planning in Dynamic Environments](https://arxiv.org/abs/1911.04679), [Self-Supervised Learning of State Estimation for Manipulating Deformable Linear Objects](https://arxiv.org/abs/1911.06283) and [Dynamic Multi-Robot Task Allocation under Uncertainty and Temporal Constraints](https://arxiv.org/abs/2005.13109). <br />
 Inspiring lines: You cannot learn everything by reading papers, you have to make mistakes and fail. Work on fixture optimization and virtual fixtures are to be done.</small>
 
-- RSS 2020, Early Career Award Keynote + Q&A: Luca Carlone [[Video](https://youtu.be/nfZGSMb01Yo)]
+- RSS 2020, Early Career Award Keynote + Q&A: Luca Carlone [[Video](https://youtu.be/nfZGSMb01Yo)]<br />
+<small><b>Topic :: The Future of Robot Perception : Certifiable Algorithms and Real-time High-level Understanding.</b> Luca is the Director of [Spark Lab, MIT](http://web.mit.edu/sparklab/) : Sensing Perception Autonomy and Robot Kinetics. Saprk Lab mostly works on Robust Perception, Localization and Mapping (Lidar-based SLAM & Certifiable Algorithms); High level scene understanding (Spatial AI) - Kimera: Metrics-Semantic SLAM [[ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289) - [3D Scene Understanding RSS'20](https://youtu.be/nDmkjt6aU2Y) ]. 
+<b>Spatial Perception :</b> Using sensor data into an internal model that the robot can use.<br />
+<b>Key Takeaways from this talk :</b> In order to get low failure rates (e.g < 1e-7) and performance gaurantees, we need to rethink current perception algorithms [Certifiable Perception Algorithms]. We need a theory of robust spatial perception: how to connect robust algorithms into a robust system? <br /><br />
+<img src="./research_img/lucatalk.png"> <br />
+Image-based object localization: perception issues. ISSUE 1: front-end (hand-crafted or deep learned) can fail in unexpected ways (not uncommon to have >90% outlier). ISSUE 2: back-end may fail if there are many outliers.<br />
+<b>Why does the  back-end fail?</b> Back-end at the end of teh day is solving an optimization problem.<br /><br />
+<img src="./research_img/lucatalk2.PNG"> <br />
+</small>
 
 - RSS2020, Test of Time: Award Talk + Q&A + Panel Debate [ [ Video ](https://youtu.be/QgpmMn9K5Eo)] <br />
 From Square Root SAM to GTSAM: Factor Graphs in Robotics [[website](https://dellaert.github.io/talks/Test-of-Time)]
