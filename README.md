@@ -70,6 +70,21 @@ Robust perception requires high level 3D understanding and 2D segmentation such 
 <br /><br />
 <img src="./research_img/kimera_semantics.gif" width=100%> <br />
 <b>3D Dynamic Scene Graph : [ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289)</b> Transition from SLAM algorithms to a notion of spatial perception where we cn segment layers spatially of an environment.
+<b>REFERENCES : </b><br />
+<b>Certifiably Robust Perception Algorithms and Systems : </b><br />
+    + [One Ring to Rule Them All: Certifiably Robust Geometric Perception with Outliers](https://arxiv.org/abs/2006.06769)  <br />
+    + [Monitoring and Diagnosability of Perception Systems](https://arxiv.org/abs/2005.11816) <br />
+    + [TEASER: Fast and Certifiable Point Cloud Registration](https://arxiv.org/abs/2001.07715) <br />
+    + [Graduated Non-Convexity for Robust Spatial Perception: From Non-Minimal Solvers to Global Outlier Rejection](https://arxiv.org/abs/1909.08605) <br />
+    + [In Perfect Shape: Certifiably Optimal 3D Shape Reconstruction from 2D Landmarks](https://arxiv.org/abs/1911.11924) <br />
+    + [A Polynomial-time Solution for Robust Registration with Extreme Outlier Rates](https://arxiv.org/abs/1903.08588) <br />
+    + [A Quaternion-based Certifiably Optimal Solution to the Wahba Problem with Outliers](https://arxiv.org/abs/1905.12536) <br />
+    + [Outlier-Robust Spatial Perception: Hardness, General-Purpose Algorithms, and Guarantees](https://arxiv.org/abs/1903.11683) <br />
+    + [Modeling Perceptual Aliasing in SLAM via Discrete-Continuous Graphical Models](https://arxiv.org/abs/1810.11692) <br />
+
+    <b>High-level Understanding - 3D Dynamic Scene Graphs and Kimera : </b><br />
+    + [3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289) <br />
+    + [Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping](https://arxiv.org/abs/1910.02490) <br />
 </small>
 
 - RSS2020, Test of Time: Award Talk + Q&A + Panel Debate [ [ Video ](https://youtu.be/QgpmMn9K5Eo)] <br />
