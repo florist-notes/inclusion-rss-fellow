@@ -56,7 +56,7 @@ Inspiring lines: You cannot learn everything by reading papers, you have to make
 <small><b>Topic :: The Future of Robot Perception : Certifiable Algorithms and Real-time High-level Understanding.</b> Luca is the Director of [Spark Lab, MIT](http://web.mit.edu/sparklab/) : Sensing Perception Autonomy and Robot Kinetics. Saprk Lab mostly works on Robust Perception, Localization and Mapping (Lidar-based SLAM & Certifiable Algorithms); High level scene understanding (Spatial AI) - Kimera: Metrics-Semantic SLAM [[ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289) - [3D Scene Understanding RSS'20](https://youtu.be/nDmkjt6aU2Y) ]. 
 <b>Spatial Perception :</b> Using sensor data into an internal model that the robot can use.<br />
 <b>Key Takeaways from this talk :</b> In order to get low failure rates (e.g < 1e-7) and performance gaurantees, we need to rethink current perception algorithms [Certifiable Perception Algorithms]. We need a theory of robust spatial perception: how to connect robust algorithms into a robust system? <br /><br />
-<img src="./research_img/lucatalk.png"> <br />
+<img src="./research_img/lucatalk.PNG"> <br />
 Image-based object localization: perception issues. ISSUE 1: front-end (hand-crafted or deep learned) can fail in unexpected ways (not uncommon to have >90% outlier). ISSUE 2: back-end may fail if there are many outliers.<br />
 <b>Why does the  back-end fail?</b> Back-end at the end of teh day is solving an optimization problem.<br /><br />
 <img src="./research_img/lucatalk2.PNG"> <br />
