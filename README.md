@@ -53,8 +53,8 @@ Q Learning (DoubleQ) in Outer loop and model free RL (A3C) is used in the Inner 
 Inspiring lines: You cannot learn everything by reading papers, you have to make mistakes and fail. Work on fixture optimization and virtual fixtures are to be done.</small>
 
 - RSS 2020, Early Career Award Keynote + Q&A: Luca Carlone (MIT) [[Video](https://youtu.be/nfZGSMb01Yo)]<br />
-<small><b>Topic :: The Future of Robot Perception : Certifiable Algorithms and Real-time High-level Understanding.</b> Luca is the Director of [Spark Lab, MIT](http://web.mit.edu/sparklab/) : Sensing Perception Autonomy and Robot Kinetics. Saprk Lab mostly works on Robust Perception, Localization and Mapping (Lidar-based SLAM & Certifiable Algorithms); High level scene understanding (Spatial AI) - Kimera: Metrics-Semantic SLAM [[ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289) - [3D Scene Understanding RSS'20](https://youtu.be/nDmkjt6aU2Y) ]. 
-<b>Spatial Perception :</b> Using sensor data into an internal model that the robot can use.<br />
+<small><b>Topic :: The Future of Robot Perception : Certifiable Algorithms and Real-time High-level Understanding.</b> Luca is the Director of [Spark Lab, MIT](http://web.mit.edu/sparklab/) : Sensing Perception Autonomy and Robot Kinetics. Saprk Lab mostly works on Robust Perception, Localization and Mapping (Lidar-based SLAM & Certifiable Algorithms); High level scene understanding (Spatial AI) - Kimera: Metrics-Semantic SLAM [[ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289) - [3D Scene Understanding RSS'20](https://youtu.be/nDmkjt6aU2Y) ].
+<b>Spatial Perception :</b> Using sensor data into an internal model that the robot can use. Luca's work include [One Ring to Rule Them All: Certifiably Robust Geometric Perception with Outliers](https://arxiv.org/abs/2006.06769), [Monitoring and Diagnosability of Perception Systems](https://arxiv.org/abs/2005.11816) etc.<br />
 <b>Key Takeaways from this talk :</b> In order to get low failure rates (e.g < 1e-7) and performance gaurantees, we need to rethink current perception algorithms [Certifiable Perception Algorithms]. We need a theory of robust spatial perception: how to connect robust algorithms into a robust system? <br /><br />
 <img src="./research_img/lucatalk.PNG"> <br />
 Image-based object localization: perception issues. ISSUE 1: front-end (hand-crafted or deep learned) can fail in unexpected ways (not uncommon to have >90% outlier). ISSUE 2: back-end may fail if there are many outliers.<br />
@@ -68,7 +68,8 @@ The rate of success with TEASER++: fast & certifiable 3D registration [[github](
 <img src="./research_img/lucatalk4.PNG"> <br />
 Robust perception requires high level 3D understanding and 2D segmentation such as MASK-RCNN fails. Solution: [Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping](https://arxiv.org/abs/1910.02490) and [Kimera: from SLAM to Spatial Perception with 3D Dynamic Scene Graphs](https://arxiv.org/abs/2101.06894). Kimera [[github](https://github.com/MIT-SPARK/Kimera)] can output real-time 3D model of the environment.
 <br /><br />
-<img src="./research_img/kimera_semantics.gif"> <br />
+<img src="./research_img/kimera_semantics.gif" width=100%> <br />
+<b>3D Dynamic Scene Graph : [ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289)</b> Transition from SLAM algorithms to a notion of spatial perception where we cn segment layers spatially of an environment.
 </small>
 
 - RSS2020, Test of Time: Award Talk + Q&A + Panel Debate [ [ Video ](https://youtu.be/QgpmMn9K5Eo)] <br />
