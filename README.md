@@ -93,8 +93,8 @@ From Square Root SAM to GTSAM: Factor Graphs in Robotics [[website](https://dell
 <b>SAM to GTSAM :</b><br />
 Smoothing and Mapping (SAM) : [[ Square Root SAM: Simultaneous Localization and Mapping via Square Root Information Smoothing ](https://journals.sagepub.com/doi/10.1177/0278364906072768)]
 <br />
-<b>Navigation and Mapping :</b><br />
-Incremental Smoothing and Mapping (iSAM) [[iSAM: Incremental Smoothing and Mapping](https://ieeexplore.ieee.org/document/4682731)] is used for mapping aircraft carriers to underwater robotics. Pre-Integrating IMU measurements yields state of the art visual-inertial navigation.<br />
+<b>Navigation and Mapping : </b> <br />
+[[ iSAM: Incremental Smoothing and Mapping ](https://ieeexplore.ieee.org/document/4682731)] is used for mapping aircraft carriers to underwater robotics. Pre-Integrating IMU measurements yields state of the art visual-inertial navigation.<br />
 <b>Future :</b><br />
 Kimera from Luca's lab uses Factor Graphs. 'Dynamic Scene Graph' uses Factor graph as well. Factor Graph Applications :  [DeepFactors: Real-Time Probabilistic Dense Monocular SLAM](https://arxiv.org/abs/2001.05049), [Hybrid Contact Preintegration for Visual-Inertial-Contact State Estimation Using Factor Graphs](https://arxiv.org/abs/1803.07531), [Robust Legged Robot State Estimation Using Factor Graph Optimization](https://www.robots.ox.ac.uk/~mobile/drs/Papers/2019RAL_wisth.pdf), [Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs](http://www.roboticsproceedings.org/rss12/p01.pdf), [Batch and Incremental Kinodynamic Motion Planning using Dynamic Factor Graphs](https://arxiv.org/abs/2005.12514), [A Nonparametric Belief Solution to the Bayes Tree](https://www.ri.cmu.edu/pub_files/2016/10/Fourie16iros.pdf), [Bundle Adjustment on a Graph Processor](https://arxiv.org/abs/2003.03134).<br />
 
