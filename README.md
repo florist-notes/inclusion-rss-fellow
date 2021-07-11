@@ -9,9 +9,12 @@ Robotic Mars Exploration: Recent Results and Future Prospects [[keynote](https:/
 
 <img src="./keynote.JPG" height=200px>
 
-## Workshops & Tutorials
+## Workshops & Tutorials @ RSS 2021
 I am interested and taking notes of the following workshops at RSS 2021:
-
+- Integrating Planning and Learning [[website](https://planandlearn.net/)]
+- Advancing Artificial Intelligence and Manipulation for Robotics: Understanding Gaps, Industry and Academic Perspectives,and Community Building [[website](https://sites.google.com/view/rss-ai-manipulationperspective/home)]
+- Declarative and Neurosymbolic Representations in Robot Learning and Control [[website](https://dnr-rob.github.io/)]
+- Geometry and Topology in Robotics: Learning, Optimization, Planning, and Control [[website](https://sites.google.com/view/geotopo-rss2021/home)]
 
 
 ## Papers @ RSS 2021
@@ -30,6 +33,8 @@ My top 10 papers from RSS 2021:
 - Learning Riemannian Manifolds for Geodesic Motion Skills [[paper](http://www.roboticsproceedings.org/rss17/p082.pdf)] by Bosch.
 - Safe Occlusion-Aware Autonomous Driving via Game-Theoretic Active Perception [[paper](http://www.roboticsproceedings.org/rss17/p066.pdf)] by Princeton University.
 
-<br /><br />
+My Mentors: [Kaushik Jayaram](https://www.colorado.edu/mechanical/kaushik-jayaram), [Aaron M. Johnson](https://www.andrew.cmu.edu/user/amj1/), [Jeannette Bohg](https://web.stanford.edu/~bohg/), [C. J. Taylor](https://www.cis.upenn.edu/~cjtaylor/home.html), [Nick Roy](https://www.csail.mit.edu/person/nicholas-roy).
+
+<br />
 <img src="./sponsor.PNG">
-<br /><br />
+<br />
