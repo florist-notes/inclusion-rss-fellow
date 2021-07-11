@@ -91,8 +91,7 @@ Robust perception requires high level 3D understanding and 2D segmentation such 
 From Square Root SAM to GTSAM: Factor Graphs in Robotics [[website](https://dellaert.github.io/talks/Test-of-Time)]<br />
 <small>[Skydio Drones](https://www.skydio.com/) : The autonomy stack has to support superior navigation,tracking, and motion planning at a very low power. Using sparse SLAM we build a world representation around us. Many of these are optimization problems which are well solved by Factor Graphs. Factor graphs can represent many robotics problems from tracking to optimal control to sophisticated 3D mapping. Factor Graph exposes opportunities for raw field because of the deep connection with sparse linear algebra - Ordering Heuristics, Nested Dissection, Sparsification, Pre-Integration, Iterative Solvers, Incremental Inference and the Bayes Tree. So it gives oppportunities to increase computational performance. <br />
 <b>SAM to GTSAM :</b><br />
-Smoothing and Mapping (SAM) : [[ Square Root SAM: Simultaneous Localization and Mapping via Square Root Information Smoothing ](https://journals.sagepub.com/doi/10.1177/0278364906072768)]
-<br />
+Smoothing and Mapping (SAM) : [[ Square Root SAM: Simultaneous Localization and Mapping via Square Root Information Smoothing ](https://journals.sagepub.com/doi/10.1177/0278364906072768)]<br />
 <b>Navigation and Mapping : </b> <br />
 [[ iSAM: Incremental Smoothing and Mapping ](https://ieeexplore.ieee.org/document/4682731)] is used for mapping aircraft carriers to underwater robotics. Pre-Integrating IMU measurements yields state of the art visual-inertial navigation.<br />
 <b>Future :</b><br />
