@@ -41,7 +41,7 @@ My Mentors: [Kaushik Jayaram](https://www.colorado.edu/mechanical/kaushik-jayara
 
 ## RSS 2020 Learning:
 
-- RSS 2020, Early Career Award Keynote + Q&A: Jeannette Bohg [[Video](https://youtu.be/yD_0lUYo5fI)] <br />
+- RSS 2020, Early Career Award Keynote + Q&A: Jeannette Bohg (Stanford University) [[Video](https://youtu.be/yD_0lUYo5fI)] <br />
 <small>Robotic Grasping of Novel Objects [[NeurIPS 2016](https://papers.nips.cc/paper/2006/hash/22722a343513ed45f14905eb07621686-Abstract.html)] DB for Supervised Learning (SVM) etc to find a good grasping point per pixel. Prof Jeanette made this contribution [ [Learning grasping points with shape context](https://www.sciencedirect.com/science/article/abs/pii/S0921889009001699) ] with feature engineering (edge features & shape context [orientation etc]). From 2D grasping points to 6D grasping pose. Current works [ [Google Arm Farm](https://ai.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html), [DexNet](https://berkeleyautomation.github.io/dex-net/) ]. Insights by Prof Jeannette - Open loop does not work, avoiding collision is constraining, 2D grasping points are not enough. So Continuos Feedback & Re-Planning is important, Exploit the environment, action representations matter. [Real-time Perception meets Reactive Motion Generation](https://arxiv.org/abs/1703.03512), [Probabilistic Articulated Real-Time Tracking for Robot Manipulation](https://arxiv.org/abs/1610.04871) and [Riemannian Motion Policies](https://arxiv.org/abs/1801.02854) were important updates. </small> <br /><br />
 <img src="./research_img/robot.png"> <br />
 <small> More works on Robots actually learning with contact constraints: [Planar in-hand manipulation via motion cones](https://journals.sagepub.com/doi/full/10.1177/0278364919880257), [A novel type of compliant and underactuated robotic hand for dexterous grasping](https://journals.sagepub.com/doi/abs/10.1177/0278364915592961), [An autonomous manipulation system based on force control and optimization](https://link.springer.com/article/10.1007/s10514-013-9365-9) etc.
@@ -52,7 +52,7 @@ Q Learning (DoubleQ) in Outer loop and model free RL (A3C) is used in the Inner 
 <small><b>What's Next ? </b> [Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks](https://arxiv.org/abs/1810.10191), [Concept2Robot: Learning Manipulation Concepts from Instructions and Human Demonstrations](https://sites.google.com/view/concept2robot), [Object-Centric Task and Motion Planning in Dynamic Environments](https://arxiv.org/abs/1911.04679), [Self-Supervised Learning of State Estimation for Manipulating Deformable Linear Objects](https://arxiv.org/abs/1911.06283) and [Dynamic Multi-Robot Task Allocation under Uncertainty and Temporal Constraints](https://arxiv.org/abs/2005.13109). <br />
 Inspiring lines: You cannot learn everything by reading papers, you have to make mistakes and fail. Work on fixture optimization and virtual fixtures are to be done.</small>
 
-- RSS 2020, Early Career Award Keynote + Q&A: Luca Carlone [[Video](https://youtu.be/nfZGSMb01Yo)]<br />
+- RSS 2020, Early Career Award Keynote + Q&A: Luca Carlone (MIT) [[Video](https://youtu.be/nfZGSMb01Yo)]<br />
 <small><b>Topic :: The Future of Robot Perception : Certifiable Algorithms and Real-time High-level Understanding.</b> Luca is the Director of [Spark Lab, MIT](http://web.mit.edu/sparklab/) : Sensing Perception Autonomy and Robot Kinetics. Saprk Lab mostly works on Robust Perception, Localization and Mapping (Lidar-based SLAM & Certifiable Algorithms); High level scene understanding (Spatial AI) - Kimera: Metrics-Semantic SLAM [[ 3D Dynamic Scene Graphs: Actionable Spatial Perception with Places, Objects, and Humans ](https://arxiv.org/abs/2002.06289) - [3D Scene Understanding RSS'20](https://youtu.be/nDmkjt6aU2Y) ]. 
 <b>Spatial Perception :</b> Using sensor data into an internal model that the robot can use.<br />
 <b>Key Takeaways from this talk :</b> In order to get low failure rates (e.g < 1e-7) and performance gaurantees, we need to rethink current perception algorithms [Certifiable Perception Algorithms]. We need a theory of robust spatial perception: how to connect robust algorithms into a robust system? <br /><br />
@@ -60,6 +60,15 @@ Inspiring lines: You cannot learn everything by reading papers, you have to make
 Image-based object localization: perception issues. ISSUE 1: front-end (hand-crafted or deep learned) can fail in unexpected ways (not uncommon to have >90% outlier). ISSUE 2: back-end may fail if there are many outliers.<br />
 <b>Why does the  back-end fail?</b> Back-end at the end of teh day is solving an optimization problem.<br /><br />
 <img src="./research_img/lucatalk2.PNG"> <br />
+In Certifiable Algorithms, we have an input ( measurement y<sub>i</sub> ) → Optimization Algorithm → Output (estimate). Certifiable Algorithms are fast (i.e Polynomial Time) algorithms that solve outlier rejection to optimality in virtually all problem instances or detect failures in worst case problems. From RANSAC, Luca is trying to flatten the curve. The idea is to transform Robust Estimation (non-convex, hard) problem to Semidefinite (convex) problems solvable in polynomial time using [Black-Rangarajan duality : On the Unification of Line Processes, Outlier Rejection, and Robust Statistics with Applications in Early Vision ](https://www.cise.ufl.edu/~anand/pdf/ijcv.pdf) and [Lasserre hierarchy of relaxations : Global Optimization with Polynomials and the Problem of Moments](https://epubs.siam.org/doi/abs/10.1137/S1052623400366802?mobileUi=0&).
+<br /><br />
+<img src="./research_img/lucatalk3.PNG"> <br />
+The rate of success with TEASER++: fast & certifiable 3D registration [[github](https://github.com/MIT-SPARK/TEASER-plusplus)] [[YouTube](https://youtu.be/uwNdLdRozeA)] is way too high. [In Perfect Shape: Certifiably Optimal 3D Shape Reconstruction from 2D Landmarks](https://arxiv.org/abs/1911.11924) is LUCA's another amazing work.
+<br /><br />
+<img src="./research_img/lucatalk4.PNG"> <br />
+Robust perception requires high level 3D understanding and 2D segmentation such as MASK-RCNN fails. Solution: [Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping](https://arxiv.org/abs/1910.02490) and [Kimera: from SLAM to Spatial Perception with 3D Dynamic Scene Graphs](https://arxiv.org/abs/2101.06894). Kimera [[github](https://github.com/MIT-SPARK/Kimera)] can output real-time 3D model of the environment.
+<br /><br />
+<img src="./research_img/kimera_semantics.gif"> <br />
 </small>
 
 - RSS2020, Test of Time: Award Talk + Q&A + Panel Debate [ [ Video ](https://youtu.be/QgpmMn9K5Eo)] <br />
