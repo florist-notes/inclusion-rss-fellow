@@ -14,16 +14,27 @@ I am interested and taking notes of the following workshops at RSS 2021:
 - Integrating Planning and Learning [[website](https://planandlearn.net/)]
 - Advancing Artificial Intelligence and Manipulation for Robotics: Understanding Gaps, Industry and Academic Perspectives,and Community Building [[website](https://sites.google.com/view/rss-ai-manipulationperspective/home)]
 - Declarative and Neurosymbolic Representations in Robot Learning and Control [[website](https://dnr-rob.github.io/)]
-- Geometry and Topology in Robotics: Learning, Optimization, Planning, and Control [[website](https://sites.google.com/view/geotopo-rss2021/home)]
+- Geometry and Topology in Robotics: Learning, Optimization, Planning, and Control [[website](https://sites.google.com/view/geotopo-rss2021/home)]<small>
+
+     - The geometry of nonlinear oscillation modes [ NOTES ](./notes/) by [Prof. Alin Albu-Schäffer](https://www.professoren.tum.de/en/albu-schaeffer-alin).
+     - Riemannian manifolds learned from data [ NOTES ](./notes/) by [Dr. Georgios Arvanitidis](https://sites.google.com/view/georgiosarvanitidis/home).
+     - Bridging Topology and Geometry in Deformable Object Manipulation [ NOTES ](./notes/) by [Prof. Jeannette Bohg](https://web.stanford.edu/~bohg/)
+     - Gaussian Processes on Riemannian Manifolds for Robotics [ NOTES ](./notes/) by [Alexander Terenin](https://scholar.google.ca/citations?user=1KqNyNMAAAAJ&hl=en) & [Viacheslav Borovitskiy](https://avt.im/)
+     - Distortion, on the Average and in Expectation [ NOTES ](./notes/) by [Prof. Herbert Edelsbrunner](http://pub.ist.ac.at/~edels/).
+     - The Role of Topology in Robotics [ NOTES ](./notes/) by [Prof. Daniel E. Koditschek](https://www.seas.upenn.edu/~kod/).
+     - Safe and Efficient Robot Learning Using Riemannian Motion Policies [ NOTES ](./notes/) by [Anqi Li](https://anqili.github.io/)
+     
+     </small>
 
 
 ## Papers @ RSS 2021
-My top 12 papers from RSS 2021:
+My domain 14 papers from RSS 2021:
 
 - Manipulator-Independent Representations for Visual Imitation [[paper](http://www.roboticsproceedings.org/rss17/p002.pdf)] by DeepMind. <br />
 - Optimal Pose and Shape Estimation for Category-level 3D Object Perception [[paper](http://www.roboticsproceedings.org/rss17/p025.pdf)] by MIT.
 - Policy Transfer across Visual and Dynamics Domain Gaps via Iterative Grounding [[paper](http://www.roboticsproceedings.org/rss17/p006.pdf)] by USC <br />
 - An Empowerment-based Solution to Robotic Manipulation Tasks with Sparse Rewards [[paper](http://www.roboticsproceedings.org/rss17/p001.pdf)] by MIT <br />
+- NeuroBEM: Hybrid Aerodynamic Quadrotor Model [[paper](http://www.roboticsproceedings.org/rss17/p042.pdf), [video](https://youtu.be/Nze1wlfmzTQ)] by University of Zurich.
 - Learning Generalizable Robotic Reward Functions from “In-The-Wild” Human Videos [[paper](http://www.roboticsproceedings.org/rss17/p012.pdf)] by Stanford University.
 - Untangling Dense Non-Planar Knots by Learning Manipulation Features and Recovery Policies [[paper](http://www.roboticsproceedings.org/rss17/p013.pdf)] by UC Berkeley.
 - TARE: A Hierarchical Framework for Efficiently Exploring Complex 3D Environments [[paper](http://www.roboticsproceedings.org/rss17/p018.pdf)] by CMU.
@@ -32,6 +43,7 @@ My top 12 papers from RSS 2021:
 - HJB-RL: Initializing Reinforcement Learning with Optimal Control Policies Applied to Autonomous Drone Racing [[paper](http://www.roboticsproceedings.org/rss17/p062.pdf)] by Stanford University.
 - Learning Riemannian Manifolds for Geodesic Motion Skills [[paper](http://www.roboticsproceedings.org/rss17/p082.pdf)] by Bosch.
 - Safe Occlusion-Aware Autonomous Driving via Game-Theoretic Active Perception [[paper](http://www.roboticsproceedings.org/rss17/p066.pdf)] by Princeton University.
+- Active Learning of Abstract Plan Feasibility [[paper](http://www.roboticsproceedings.org/rss17/p043.pdf), [video](https://youtu.be/NM3sv6hzx90)] by MIT.
 
 My Mentors: [Kaushik Jayaram](https://www.colorado.edu/mechanical/kaushik-jayaram), [Aaron M. Johnson](https://www.andrew.cmu.edu/user/amj1/), [Jeannette Bohg](https://web.stanford.edu/~bohg/), [C. J. Taylor](https://www.cis.upenn.edu/~cjtaylor/home.html), [Nick Roy](https://www.csail.mit.edu/person/nicholas-roy).
 
