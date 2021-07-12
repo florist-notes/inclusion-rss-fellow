@@ -2,7 +2,7 @@
 ## Robotic Mars Exploration: Recent Results and Future Prospects
 
 <br />
-<img src="../keynote.JPG" height=400px> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="./caltech.png" height=200px>
+<img src="../keynote.JPG" height=400px> &nbsp; &nbsp;<img src="./caltech.png" height=200px>
 
 <b>What's new?</b> <br />
 - More Scientific instruments to search for signs of ancient microbial life.
