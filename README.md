@@ -11,9 +11,23 @@ Robotic Mars Exploration: Recent Results and Future Prospects [[keynote](https:/
 
 ## Workshops & Tutorials @ RSS 2021
 I am interested and taking notes of the following workshops at RSS 2021:
-- Integrating Planning and Learning [[website](https://planandlearn.net/)]
-- Advancing Artificial Intelligence and Manipulation for Robotics: Understanding Gaps, Industry and Academic Perspectives,and Community Building [[website](https://sites.google.com/view/rss-ai-manipulationperspective/home)]
-- Declarative and Neurosymbolic Representations in Robot Learning and Control [[website](https://dnr-rob.github.io/)]
+- Integrating Planning and Learning [[website](https://planandlearn.net/)]<small>
+    - Moderated Panel I: Learning to plan, differentiable planner, and planning to learn.  [ NOTES ](./notes/)
+    - Moderated Panel II: Model learning, learning representations, and model-augmented learning. [ NOTES ](./notes/)
+    - Moderated Panel III: New opportunities for integrating planning and learning. [ NOTES ](./notes/)
+</small>
+- Advancing Artificial Intelligence and Manipulation for Robotics: Understanding Gaps, Industry and Academic Perspectives,and Community Building [[website](https://sites.google.com/view/rss-ai-manipulationperspective/home)] <small>
+    - Representation Learning for Interaction Tasks [ NOTES ](./notes/) by [Danica Kragic (KTH)]()
+    - Supervised Local Autonomy for Mobile Manipulation with Spot [ NOTES ](./notes/) by [Al Rizzi (Boston Dynamics)]()
+    - Online Recovery from Failure [ NOTES ](./notes/) by [Jeannette Bohg (Stanford)]()
+</small>
+- Declarative and Neurosymbolic Representations in Robot Learning and Control [[website](https://dnr-rob.github.io/)]<small>
+    - Acting, Learning, and Knowing in Large-Scale Space [ NOTES ](./notes/) by [Prof. Benjamin Kuipers](https://web.eecs.umich.edu/~kuipers/)
+    - Human-like planning for reaching in cluttered environments [ NOTES ](./notes/) by [Prof. Anthony G Cohn](https://eps.leeds.ac.uk/computing/staff/76/professor-anthony-g-cohn-freng-ceng-citp)
+    - Mission Planning with Uncertain Models [ NOTES ](./notes/) by [Prof. Nick Hawes](https://www.robots.ox.ac.uk/~nickh/)
+    - Signal to Symbol (via Skills) [ NOTES ](./notes/) by [Prof. George Konidaris](https://cs.brown.edu/people/gdk/)
+    - Rich Representations for Rational Robots [ NOTES ](./notes/) by [Prof. Leslie P. Kaelbling]()
+    </small>
 - Geometry and Topology in Robotics: Learning, Optimization, Planning, and Control [[website](https://sites.google.com/view/geotopo-rss2021/home)]<small>
 
      - The geometry of nonlinear oscillation modes [ NOTES ](./notes/) by [Prof. Alin Albu-Schäffer](https://www.professoren.tum.de/en/albu-schaeffer-alin).
@@ -28,7 +42,7 @@ I am interested and taking notes of the following workshops at RSS 2021:
 
 
 ## Papers @ RSS 2021
-My domain 14 papers from RSS 2021:
+I am interested and taking notes of the following 14 papers at RSS 2021:
 
 - Manipulator-Independent Representations for Visual Imitation [[paper](http://www.roboticsproceedings.org/rss17/p002.pdf)] by DeepMind. <br />
 - Optimal Pose and Shape Estimation for Category-level 3D Object Perception [[paper](http://www.roboticsproceedings.org/rss17/p025.pdf)] by MIT.
