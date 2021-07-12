@@ -5,7 +5,7 @@ I received Inclusion@RSS Fellowship [[ 44 Fellows list ](https://sites.google.co
 <br /><br />
 
 ## Keynote: 
-Robotic Mars Exploration: Recent Results and Future Prospects by [Larry Matthies](https://www-robotics.jpl.nasa.gov/people/Larry_Matthies/) [NASA-JPL] [[ keynote ](https://roboticsconference.org/program/keynote1/)]
+Robotic Mars Exploration: Recent Results and Future Prospects by [Larry Matthies](https://www-robotics.jpl.nasa.gov/people/Larry_Matthies/) [NASA-JPL] [[ Read ](./notes/keynote.md), [Keynote ](https://roboticsconference.org/program/keynote1/)]
 
 <img src="./keynote.JPG" height=250px>
 
