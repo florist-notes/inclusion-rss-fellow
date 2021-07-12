@@ -18,7 +18,7 @@ I am interested and taking notes of the following workshops at RSS 2021:
 - Advancing Artificial Intelligence and Manipulation for Robotics: Understanding Gaps, Industry and Academic Perspectives,and Community Building [[website](https://sites.google.com/view/rss-ai-manipulationperspective/home)] <small>
     - Representation Learning for Interaction Tasks [ NOTES ](./notes/) by [Danica Kragic (KTH)]()
     - Supervised Local Autonomy for Mobile Manipulation with Spot [ NOTES ](./notes/) by [Al Rizzi (Boston Dynamics)]()
-    - Online Recovery from Failure [ NOTES ](./notes/) by [Jeannette Bohg (Stanford)]() </small>
+    - Online Recovery from Failure [ NOTES ](./workshop/prof_jeannette.md) by [Jeannette Bohg (Stanford)]() </small>
 - Declarative and Neurosymbolic Representations in Robot Learning and Control [[website](https://dnr-rob.github.io/)]<small>
     - Acting, Learning, and Knowing in Large-Scale Space [ NOTES ](./notes/) by [Prof. Benjamin Kuipers](https://web.eecs.umich.edu/~kuipers/)
     - Human-like planning for reaching in cluttered environments [ NOTES ](./notes/) by [Prof. Anthony G Cohn](https://eps.leeds.ac.uk/computing/staff/76/professor-anthony-g-cohn-freng-ceng-citp)
@@ -29,7 +29,7 @@ I am interested and taking notes of the following workshops at RSS 2021:
 
      - The geometry of nonlinear oscillation modes [ NOTES ](./notes/) by [Prof. Alin Albu-Schäffer](https://www.professoren.tum.de/en/albu-schaeffer-alin).
      - Riemannian manifolds learned from data [ NOTES ](./notes/) by [Dr. Georgios Arvanitidis](https://sites.google.com/view/georgiosarvanitidis/home).
-     - Bridging Topology and Geometry in Deformable Object Manipulation [ NOTES ](./notes/) by [Prof. Jeannette Bohg](https://web.stanford.edu/~bohg/)
+     - Bridging Topology and Geometry in Deformable Object Manipulation [ NOTES ](./workshop/prof_jeannette2.md) by [Prof. Jeannette Bohg](https://web.stanford.edu/~bohg/)
      - Gaussian Processes on Riemannian Manifolds for Robotics [ NOTES ](./notes/) by [Alexander Terenin](https://scholar.google.ca/citations?user=1KqNyNMAAAAJ&hl=en) & [Viacheslav Borovitskiy](https://avt.im/)
      - Distortion, on the Average and in Expectation [ NOTES ](./notes/) by [Prof. Herbert Edelsbrunner](http://pub.ist.ac.at/~edels/).
      - The Role of Topology in Robotics [ NOTES ](./notes/) by [Prof. Daniel E. Koditschek](https://www.seas.upenn.edu/~kod/).
@@ -37,7 +37,7 @@ I am interested and taking notes of the following workshops at RSS 2021:
 
 
 ## Papers @ RSS 2021
-I am interested and taking notes of the following 14 papers at RSS 2021:
+I am interested and taking notes of the following 15 papers at RSS 2021:
 
 - Manipulator-Independent Representations for Visual Imitation [[paper](http://www.roboticsproceedings.org/rss17/p002.pdf), [website](https://sites.google.com/view/mir4vi/)] by DeepMind. <br />
 - Optimal Pose and Shape Estimation for Category-level 3D Object Perception [[paper](http://www.roboticsproceedings.org/rss17/p025.pdf), [video](https://youtu.be/kiNBS0IF2-g)] by MIT.
@@ -52,6 +52,7 @@ I am interested and taking notes of the following 14 papers at RSS 2021:
 - HJB-RL: Initializing Reinforcement Learning with Optimal Control Policies Applied to Autonomous Drone Racing [[paper](http://www.roboticsproceedings.org/rss17/p062.pdf), [video](https://youtu.be/4jMozAXpiUM)] by Stanford University.
 - Learning Riemannian Manifolds for Geodesic Motion Skills [[paper](http://www.roboticsproceedings.org/rss17/p082.pdf), [video](https://youtu.be/K6DkUjVIG-Y)] by Bosch.
 - Safe Occlusion-Aware Autonomous Driving via Game-Theoretic Active Perception [[paper](http://www.roboticsproceedings.org/rss17/p066.pdf), [video](https://youtu.be/YUJywm7IZEQ)] by Princeton University.
+- Moving sidewinding forward: optimizing contact patterns for limbless robots via geometric mechanics [[paper](http://www.roboticsproceedings.org/rss17/p031.pdf)] by GTech, CMU.
 - Active Learning of Abstract Plan Feasibility [[paper](http://www.roboticsproceedings.org/rss17/p043.pdf), [video](https://youtu.be/NM3sv6hzx90)] by MIT.
 
 My Mentors: [Kaushik Jayaram](https://www.colorado.edu/mechanical/kaushik-jayaram), [Aaron M. Johnson](https://www.andrew.cmu.edu/user/amj1/), [Jeannette Bohg](https://web.stanford.edu/~bohg/), [C. J. Taylor](https://www.cis.upenn.edu/~cjtaylor/home.html), [Nick Roy](https://www.csail.mit.edu/person/nicholas-roy).
@@ -119,3 +120,4 @@ Smoothing and Mapping (SAM) : [[ Square Root SAM: Simultaneous Localization and 
 Kimera from Luca's lab uses Factor Graphs. 'Dynamic Scene Graph' uses Factor graph as well. Factor Graph Applications :  [DeepFactors: Real-Time Probabilistic Dense Monocular SLAM](https://arxiv.org/abs/2001.05049), [Hybrid Contact Preintegration for Visual-Inertial-Contact State Estimation Using Factor Graphs](https://arxiv.org/abs/1803.07531), [Robust Legged Robot State Estimation Using Factor Graph Optimization](https://www.robots.ox.ac.uk/~mobile/drs/Papers/2019RAL_wisth.pdf), [Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs](http://www.roboticsproceedings.org/rss12/p01.pdf), [Batch and Incremental Kinodynamic Motion Planning using Dynamic Factor Graphs](https://arxiv.org/abs/2005.12514), [A Nonparametric Belief Solution to the Bayes Tree](https://www.ri.cmu.edu/pub_files/2016/10/Fourie16iros.pdf), [Bundle Adjustment on a Graph Processor](https://arxiv.org/abs/2003.03134).<br />
 
 </small>
+<img src="./gathertown.png" width=100%> <br />
