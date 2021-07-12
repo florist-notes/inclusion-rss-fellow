@@ -1,13 +1,13 @@
 # Inclusion@[RSS](https://roboticsconference.org/) 2021 Fellow | Robotics Science & Systems
-I received Inclusion@RSS Fellowship [[44 Fellows list](https://sites.google.com/andrew.cmu.edu/inclusion-2021/directory)] | [RSS in YouTube](https://www.youtube.com/channel/UCeEbAUGjtBlzmqWO5u6VeGg)
+I received Inclusion@RSS Fellowship [[ 44 Fellows list ](https://sites.google.com/andrew.cmu.edu/inclusion-2021/directory)] | [RSS in YouTube](https://www.youtube.com/channel/UCeEbAUGjtBlzmqWO5u6VeGg)
 
 <img src="./rsslogotext-white.png">
 <br /><br />
 
 ## Keynote: 
-Robotic Mars Exploration: Recent Results and Future Prospects [[keynote](https://roboticsconference.org/program/keynote1/)]
+Robotic Mars Exploration: Recent Results and Future Prospects by [Larry Matthies](https://www-robotics.jpl.nasa.gov/people/Larry_Matthies/) [NASA-JPL] [[ keynote ](https://roboticsconference.org/program/keynote1/)]
 
-<img src="./keynote.JPG" height=200px>
+<img src="./keynote.JPG" height=250px>
 
 ## Workshops & Tutorials @ RSS 2021
 I am interested and taking notes of the following workshops at RSS 2021:
@@ -39,7 +39,7 @@ I am interested and taking notes of the following workshops at RSS 2021:
 ## Papers @ RSS 2021
 I am interested and taking notes of the following 14 papers at RSS 2021:
 
-- Manipulator-Independent Representations for Visual Imitation [[paper](http://www.roboticsproceedings.org/rss17/p002.pdf)] by DeepMind. <br />
+- Manipulator-Independent Representations for Visual Imitation [[paper](http://www.roboticsproceedings.org/rss17/p002.pdf), [website](https://sites.google.com/view/mir4vi/)] by DeepMind. <br />
 - Optimal Pose and Shape Estimation for Category-level 3D Object Perception [[paper](http://www.roboticsproceedings.org/rss17/p025.pdf)] by MIT.
 - Policy Transfer across Visual and Dynamics Domain Gaps via Iterative Grounding [[paper](http://www.roboticsproceedings.org/rss17/p006.pdf)] by USC <br />
 - An Empowerment-based Solution to Robotic Manipulation Tasks with Sparse Rewards [[paper](http://www.roboticsproceedings.org/rss17/p001.pdf)] by MIT <br />
