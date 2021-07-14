@@ -28,9 +28,10 @@ I am interested and taking notes of the following workshops at RSS 2021:
 - Geometry and Topology in Robotics: Learning, Optimization, Planning, and Control [[website](https://sites.google.com/view/geotopo-rss2021/home)]<small>
 
      - The geometry of nonlinear oscillation modes [ NOTES ](./notes/) by [Prof. Alin Albu-Schäffer](https://www.professoren.tum.de/en/albu-schaeffer-alin).
-     - Riemannian manifolds learned from data [ NOTES ](./notes/) by [Dr. Georgios Arvanitidis](https://sites.google.com/view/georgiosarvanitidis/home).
+     - Riemannian manifolds learned from data [ NOTES ](./workshop/georgios.md) by [Dr. Georgios Arvanitidis](https://sites.google.com/view/georgiosarvanitidis/home).
      - Bridging Topology and Geometry in Deformable Object Manipulation [ NOTES ](./workshop/prof_jeannette2.md) by [Prof. Jeannette Bohg](https://web.stanford.edu/~bohg/)
      - Gaussian Processes on Riemannian Manifolds for Robotics [ NOTES ](./notes/) by [Alexander Terenin](https://scholar.google.ca/citations?user=1KqNyNMAAAAJ&hl=en) & [Viacheslav Borovitskiy](https://avt.im/)
+     - Geometric Deep Learning: The Erlangen Programme of ML [ NOTES ](./notes/),[video](https://youtu.be/w6Pw4MOzMuo) by [Prof. Michael Bronstein](https://www.imperial.ac.uk/people/m.bronstein)
      - Distortion, on the Average and in Expectation [ NOTES ](./notes/) by [Prof. Herbert Edelsbrunner](http://pub.ist.ac.at/~edels/).
      - The Role of Topology in Robotics [ NOTES ](./notes/) by [Prof. Daniel E. Koditschek](https://www.seas.upenn.edu/~kod/).
      - Safe and Efficient Robot Learning Using Riemannian Motion Policies [ NOTES ](./notes/) by [Anqi Li](https://anqili.github.io/) </small>
@@ -52,7 +53,7 @@ I am interested and taking notes of the following 15 papers at RSS 2021:
 - HJB-RL: Initializing Reinforcement Learning with Optimal Control Policies Applied to Autonomous Drone Racing [[paper](http://www.roboticsproceedings.org/rss17/p062.pdf), [video](https://youtu.be/4jMozAXpiUM)] by Stanford University.
 - Learning Riemannian Manifolds for Geodesic Motion Skills [[paper](http://www.roboticsproceedings.org/rss17/p082.pdf), [video](https://youtu.be/K6DkUjVIG-Y)] by Bosch.
 - Safe Occlusion-Aware Autonomous Driving via Game-Theoretic Active Perception [[paper](http://www.roboticsproceedings.org/rss17/p066.pdf), [video](https://youtu.be/YUJywm7IZEQ)] by Princeton University.
-- Moving sidewinding forward: optimizing contact patterns for limbless robots via geometric mechanics [[paper](http://www.roboticsproceedings.org/rss17/p031.pdf)] by GTech, CMU.
+- Moving sidewinding forward: optimizing contact patterns for limbless robots via geometric mechanics [[paper](http://www.roboticsproceedings.org/rss17/p031.pdf), [video](https://youtu.be/UKtzCPoQ68k)] by GTech, CMU.
 - Active Learning of Abstract Plan Feasibility [[paper](http://www.roboticsproceedings.org/rss17/p043.pdf), [video](https://youtu.be/NM3sv6hzx90)] by MIT.
 
 My Mentors: [Kaushik Jayaram](https://www.colorado.edu/mechanical/kaushik-jayaram), [Aaron M. Johnson](https://www.andrew.cmu.edu/user/amj1/), [Jeannette Bohg](https://web.stanford.edu/~bohg/), [C. J. Taylor](https://www.cis.upenn.edu/~cjtaylor/home.html), [Nick Roy](https://www.csail.mit.edu/person/nicholas-roy).
